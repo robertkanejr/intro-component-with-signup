@@ -1,0 +1,13 @@
+#trial-btn {
+	margin: 1rem 0;
+	/* padding: 0 1rem; */
+	border-radius: 10px;
+	font-size: 1rem;
+	font-weight: 500;
+	color: white;
+	background-color: #5e54a4;
+}
+
+#trial-btn span {
+	font-weight: 700;
+}

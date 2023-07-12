@@ -11,9 +11,17 @@ import SignupForm from "../components/SignupForm/SignupForm";
 function App() {
 	return (
 		<div className="App">
-			<MainText />
-			<TrialButton />
-			<SignupForm />
+			<div>
+				<MainText />
+			</div>
+			<div>
+				<div>
+					<TrialButton />
+				</div>
+				<div>
+					<SignupForm />
+				</div>
+			</div>
 		</div>
 	);
 }
