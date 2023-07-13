@@ -1,7 +1,6 @@
-/* .form-container {
-	width: 100%;
-	margin: 0 auto;
-} */
+.form-container {
+	margin: 0 0 0 3rem;
+}
 
 form {
 	display: flex;
@@ -22,6 +21,7 @@ input {
 	font-size: 1rem;
 	font-weight: 700;
 	color: #333333;
+	font-size: 14px;
 }
 
 input:focus {
@@ -32,7 +32,6 @@ form button {
 	margin: 0.5rem 0;
 	padding: 0 1.5rem;
 	border-radius: 5px;
-	font-size: 1rem;
 	font-weight: 500;
 	color: white;
 	background-color: #38cc8b;
@@ -42,11 +41,31 @@ form button {
 
 form p {
 	color: #bab7d4;
-	font-size: 0.75rem;
+	font-size: 11px;
 }
 
 form p a {
 	color: #ff7979;
 	font-weight: 700;
 	text-decoration: none;
+}
+
+@media (max-width: 375px) {
+	.form-container {
+		max-width: 100%;
+		margin: 1rem;
+	}
+
+	form {
+		padding: 1.5rem;
+	}
+
+	form button {
+		font-size: 15px;
+	}
+
+	form p {
+		text-align: center;
+		font-size: 0.8rem;
+	}
 }

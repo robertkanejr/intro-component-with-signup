@@ -11,16 +11,12 @@ import SignupForm from "../components/SignupForm/SignupForm";
 function App() {
 	return (
 		<div className="App">
-			<div>
+			<div className="columns">
 				<MainText />
 			</div>
-			<div>
-				<div>
-					<TrialButton />
-				</div>
-				<div>
-					<SignupForm />
-				</div>
+			<div className="columns">
+				<TrialButton />
+				<SignupForm />
 			</div>
 		</div>
 	);

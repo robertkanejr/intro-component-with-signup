@@ -5,11 +5,11 @@ import "./trialButton.css";
 
 const TrialButton = () => {
 	return (
-		// <div>
-		<button id="trial-btn">
-			<span>Try it free 7 days</span> then $20/mo. thereafter
-		</button>
-		/* </div> */
+		<div id="trial-btn-container">
+			<button id="trial-btn">
+				<span>Try it free 7 days</span> then $20/mo. thereafter
+			</button>
+		</div>
 	);
 };
 

@@ -1,6 +1,9 @@
+#trial-btn-container {
+	margin: 0 0 0 3rem;
+}
+
 #trial-btn {
 	margin: 1rem 0;
-	/* padding: 0 1rem; */
 	border-radius: 10px;
 	font-size: 1rem;
 	font-weight: 500;
@@ -10,4 +13,19 @@
 
 #trial-btn span {
 	font-weight: 700;
+}
+
+@media (max-width: 375px) {
+	#trial-btn-container {
+		margin: 0 1rem;
+	}
+
+	#trial-btn {
+		height: 80px;
+		width: 100%;
+		margin-bottom: 0.5rem;
+		padding: 0rem 4.2rem;
+		line-height: 1.5rem;
+		text-align: center;
+	}
 }
